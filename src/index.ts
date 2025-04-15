@@ -48,7 +48,7 @@ app.get('/',(req:Request,res:Response)=>{
     res.send('Welcome to code walkthrough')
 })
 
-app.listen(4000,()=>{
+app.listen(3000,()=>{
     console.log("Listening on port 3000")
 })
 
