@@ -7,7 +7,7 @@ app.use(express.json())
 
 app.get('/posts',async(req:Request,res:Response<Post[]>)=>{
     try{
-        // testing ci
+        // testing ci / cd
         var posts=await getPosts();
         res.json(posts);
     }
